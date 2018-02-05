@@ -1,14 +1,13 @@
 package org.codemetrics;
 
-import java.util.Collections;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-public class TestSourceControl implements SourceControl {
+public class FakeSourceControl implements SourceControl {
     private final List<Commit> commits;
 
-    public TestSourceControl(List<Commit> commits) {
+    public FakeSourceControl(List<Commit> commits) {
         this.commits = commits;
     }
 
