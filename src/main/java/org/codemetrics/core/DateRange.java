@@ -1,4 +1,4 @@
-package org.codemetrics;
+package org.codemetrics.core;
 
 import lombok.Data;
 
